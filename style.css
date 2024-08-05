@@ -1,0 +1,35 @@
+html {
+	font-size: 16px;
+}
+
+#wrapper {
+	display: block;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar {
+	display: block;
+	width: 650px;
+	height: 60px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+	border: 2px solid #ffe5ec;
+}
+
+.navbar li {
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 45px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fb6f92;
+	font-family: consolas, monospace;
+	font-weight: bold;
+}
