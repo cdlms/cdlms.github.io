@@ -35,16 +35,6 @@ body {
 	border: 2px solid #ffe5ec;
 }
 
-.navbar li {
-	height: 30px;
-	display: inline-block;
-	margin-left: 53px;
-	margin-right: 53px;
-}
-
-.navbar a {
-	text-decoration: none;
-	color: #fb6f92;
-	font-family: consolas, monospace;
-	font-weight: bold;
+#content {
+	height: 500px;
 }

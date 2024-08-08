@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	const postContent = document.getElementById('post-content');
 	
 	// 포스트 목록 로드
-	fetch('posts/list.json')
+	fetch('./posts/list.json')
 	.then(response => response.json())
 	.then(posts => {
 			postList.innerHTML = '';
