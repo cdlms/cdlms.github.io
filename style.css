@@ -23,18 +23,6 @@ body {
 	margin-right: auto;
 }
 
-.navbar {
-	display: block;
-	width: 580px;
-	height: 60px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	padding: 4px 0px;
-	font-size: 1.2rem;
-	border: 2px solid #ffe5ec;
-}
-
 #content {
 	height: 500px;
 }

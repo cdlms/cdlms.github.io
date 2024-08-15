@@ -1,7 +1,19 @@
+.navbar {
+	display: block;
+	width: 580px;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 1.2rem;
+	border: 2px solid #f9bccd;
+	border-left: 20px solid #f9bccd;
+}
+
 .navbar li {
 	height: 30px;
 	display: inline-block;
-	margin-left: 53px;
+	margin-left: 65px;
 	margin-right: 53px;
 }
 
