@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>write</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="section">
+				<div id="navigator-placeholder"></div>
+				<script src="/load-navigator.js"></script>
+
+				<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+				<script src="/script.js"></script>
+
+				<h1>작성한 글</h1>
+
+				<form id=" viewForm">
+					<div id="subject">제목: </div>
+					<div id="writer">작성자: </div>
+					<div id="date">작성일: </div>
+					<div id="content">내용: </div>
+				</form>
+				<button id="modify">수정</button>
+				<button id="delete">삭제</button>
+				<script src="/public/js/view.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
